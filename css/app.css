@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+/*div {
+  border: 1px solid #73AD21;;
+}
+*/
+
+html, body {
+
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  background-color: #100F0D;    /*Luminar's Black*/
+  /*background-color: #FFFFFF;  */  /*White*/
+  /*background-color: #000000;  */  /*Black*/
+  /*background-color: #F0F8FF;  */  /*Light blue*/ 
+}
+
+
+
+.luminar_cropped_image {
+
+  height: 153px;
+  width: 720px;
+  
+  /*display: flex;*/                  /*makes it small*/
+  /*justify-content: center;*/       /*investigate further*/
+  /*align-items: center;*/          /*investigate further*/
+  /*position: relative;*/
+
+  transform: translateY(100%);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
