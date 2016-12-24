@@ -32,9 +32,6 @@ html, body {
   border: 0;
 
   background-color: #100F0D;    /*Luminar's Black*/
-  /*background-color: #FFFFFF;  */  /*White*/
-  /*background-color: #000000;  */  /*Black*/
-  /*background-color: #F0F8FF;  */  /*Light blue*/ 
 }
 
 
@@ -43,6 +40,8 @@ html, body {
 
   height: 153px;
   width: 720px;
+
+  
   
   /*display: flex;*/                  /*makes it small*/
   /*justify-content: center;*/       /*investigate further*/

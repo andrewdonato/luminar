@@ -1,1 +1,30 @@
-<h1>Main</h1>
+<html>
+	<head>
+		<script type = "text/javascript">
+			function loadPage(argPageToLoad) {
+				$.ajax({
+					method: "get",
+					url: "../luminar/pages/" + argPageToLoad,
+					success: function(data) {
+						document.getELementById("bodyContent"),
+						innerHTML = data;
+					}
+				});
+			}
+		</script>	
+	</head>
+
+	<body>
+		<div id="nav" class="navbar">
+			<ul>
+				<li onclick = "loadPage ('careers.html')">Careers</li>
+				<li onclick = "loadPage ('about.html')">About</li>
+				<li onclick = "loadPage ('contact.html')">Contact</li>
+				<li onclick = "loadPage ('product.html')">Products</li>
+			</ul>
+		</div>
+		<div id="bodyContent"></div>
+	</body>
+
+	<h1>Main</h1>
+</html>
