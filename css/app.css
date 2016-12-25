@@ -34,10 +34,30 @@ html, body {
   background-color: #100F0D;    /*Luminar's Black*/
 }
 
+#nav_bar {
+
+}
+
+
+.nav_menu {
+  padding: 8px;
+}
+
+.nav_menu ul {
+  list-style-type: none;
+  margin: 0; 
+  background-color: "#000000";
+}
+
+.nav_menu li {
+  display: inline;
+
+}
+
 
 
 .landing_image {
-  
+
   height: 153px;
   width: 720px;
   position: fixed;
