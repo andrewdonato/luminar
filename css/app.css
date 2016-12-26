@@ -40,34 +40,28 @@ html, body {
 
 
 .nav_menu {
-  /*padding: 8px;*/
-
-}
-
-.nav_menu_item {
-  cursor: hand; /* Changes the cursor so users know the item is clickable since we are not using <a> */
-  padding: 8px;
-  background-color: #dddddd;
-}
-
-
-ul {
   list-style-type: none;
   margin: 0; 
   padding: 0; 
   overflow: hidden;
 
+  /*padding: 8px;*/
   /*background-color: #000000;*/
-  /*background-color: #333333;*/
   /*background-color: #FFFFFF;*/
   /*background-color: #DDDDDD;*/
-  background-color: cornsilk;
+  /*background-color: cornsilk;*/
 }
 
+.nav_menu_item {
+  cursor: hand; /* Changes the cursor so users know the item is clickable since we are not using <a> */
+  padding: 8px;
+  /*background-color: #dddddd;*/
+}
 
 .nav_menu li {
   float: left;
   display: inline;
+  /*background-color: #333333;*/
   /*margin-left: .2em;*/
   /*margin-right: 2em;*/
 }
@@ -80,12 +74,13 @@ ul {
   text-decoration: none;
 }
 
-li:hover:not(.active) {
-    background-color: #111;
+.nav_menu li:hover:not(.active) {
+  background-color: #444;
 }
 
-.active {
-    background-color: #4CAF50;
+.active_page {
+    /*background-color: #4CAF50;*/
+    background-color: #222;
 }
 
 .landing_image {
