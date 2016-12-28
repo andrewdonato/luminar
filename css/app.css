@@ -34,57 +34,56 @@ html, body {
   background-color: #100F0D;    /*Luminar's Black*/
 }
 
+ul, li{
+  list-style-type: none;
+}
+
+/* Navigation Bar */
 #nav_bar {
 
 }
-
-
-.nav_menu {
+ul.nav_menu {
   z-index: 1;
-
+  
   width: 100%;
   position: fixed;
   list-style-type: none;
   margin: 0; 
   padding: 0; 
   overflow: hidden;
-  background-color: cornsilk;
+  
+  background-color: #100F0D;    /*Luminar's Black*/
+  /*background-color: #000000;*/  /*black*/
+  /*background-color: cornsilk;*/
   
   /*opacity: 1;*/
   /*padding: 8px;*/
 }
-
-.nav_menu_item {
-  cursor: hand; /* Changes the cursor so users know the item is clickable since we are not using <a> */
+li.nav_menu_item {
+  cursor: hand;
   padding: 8px;
-}
-
-.nav_menu li {
   float: left;
   display: inline;
-
 }
-
 .nav_menu li a {
   display: block;
   color: white;
   text-align: center;
-  /*padding: 4px 16px;*/
+  padding: 4px 16px;
   text-decoration: none;
 }
-
 .nav_menu li:hover:not(.active) {
   background-color: #444;
-
 }
 
+
 .active_page {
-    background-color: #222;
+  background-color: #222;
 }
 
 
 .landing_image {
-  height: 153px;
+  /*height: 153px;*/
   width: 720px;
   position: relative;
   top: 50%;
@@ -93,15 +92,15 @@ html, body {
 }
 
 
+
 .logo_top {
-  
-  height: 300px;
+  height: 500px;
 }
 
-.about_image {
 
+.about_image {
   position: relative;
-  height: 153px;
+  /*height: 153px;*/
   width: 720px;
   top: 50%;
   left: 50%;
@@ -109,11 +108,16 @@ html, body {
 }
 
 .content {
+  padding: 4px 16px;
   position: relative;
   /*position: fixed;*/
-  height: 1000px;
+  min-height: 600px;
+  /*height: 1000px;*/
   background-color: #FFFFFF;
   /*display: block;  */
+}
+.content h2 {
+  margin-top: 50px;
 }
 
 p {
@@ -121,10 +125,25 @@ p {
   color:"red";
 }
 
+
 .footer {
-  background-color: cornsilk;
+  color: white;
+  
+  bottom: 0px;
+  width: 100%;
+  padding: 4px 16px;
+
+  text-decoration: none;
+  
+  background-color: #100F0D;    /*Luminar's Black*/
+  /*background-color: #000000;*/  /*black*/
+  /*background-color: cornsilk;*/
 }
 
+.footer a {
+  /*background-color: white;*/
+  color: white;
+}
   /*position: static;*/
   /*position: relative;*/
   /*position: absolute;*/
@@ -138,6 +157,7 @@ p {
 /*background-color: #FFFFFF;*/  /*white*/
 /*background-color: #DDDDDD;*/  /*gray*/
 /*background-color: cornsilk;*/
+/*background-color: #100F0D;*/    /*Luminar's Black*/
 
 
 
