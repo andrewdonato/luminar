@@ -40,30 +40,25 @@ html, body {
 
 
 .nav_menu {
+  z-index: 100;
+  position: fixed;
   list-style-type: none;
   margin: 0; 
   padding: 0; 
   overflow: hidden;
 
   /*padding: 8px;*/
-  /*background-color: #000000;*/
-  /*background-color: #FFFFFF;*/
-  /*background-color: #DDDDDD;*/
-  /*background-color: cornsilk;*/
 }
 
 .nav_menu_item {
   cursor: hand; /* Changes the cursor so users know the item is clickable since we are not using <a> */
   padding: 8px;
-  /*background-color: #dddddd;*/
 }
 
 .nav_menu li {
   float: left;
   display: inline;
-  /*background-color: #333333;*/
-  /*margin-left: .2em;*/
-  /*margin-right: 2em;*/
+
 }
 
 .nav_menu li a {
@@ -76,10 +71,10 @@ html, body {
 
 .nav_menu li:hover:not(.active) {
   background-color: #444;
+
 }
 
 .active_page {
-    /*background-color: #4CAF50;*/
     background-color: #222;
 }
 
@@ -94,7 +89,49 @@ html, body {
 }
 
 
+.logo_top {
+  /*position: static;*/
+  /*position: fixed;*/
+  /*position: relative;*/
+  /*position: absolute;*/
+  min-height: 300px;
+  /*height: 300px;*/
+}
 
+.about_image {
+
+  height: 153px;
+  width: 720px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+}
+
+.content {
+  position: relative;
+  /*position: fixed;*/
+  height: 1000px;
+  background-color: #FFFFFF;
+  /*display: block;  */
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+  color:"red";
+}
+
+.footer {
+  background-color: #4CAF50;  /*green*/  
+}
+
+/*background-color: #dddddd;*/  /*white*/
+/*background-color: #333333;*/  /*gray*/
+/*background-color: #4CAF50;*/  /*green*/
+/*background-color: #000000;*/  /*black*/
+/*background-color: #FFFFFF;*/  /*white*/
+/*background-color: #DDDDDD;*/  /*gray*/
+/*background-color: cornsilk;*/
 
 
 
