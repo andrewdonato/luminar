@@ -94,7 +94,7 @@ li.nav_menu_item {
 
 
 .logo_hero {
-  height: 500px;
+  height: 300px;
 }
 
 
@@ -120,9 +120,17 @@ li.nav_menu_item {
   margin-top: 50px;
 }
 
+textarea {
+  min-height: 100px;
+}
+
 p {
   font-family: helvetica, arial, sans-serif;
   color:"red";
+}
+
+.content_section h5 {
+  text-align: center;
 }
 
 #map {
