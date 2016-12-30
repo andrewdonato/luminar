@@ -93,12 +93,12 @@ li.nav_menu_item {
 
 
 
-.logo_top {
+.logo_hero {
   height: 500px;
 }
 
 
-.about_image {
+.logo_image {
   position: relative;
   /*height: 153px;*/
   width: 720px;
@@ -123,6 +123,12 @@ li.nav_menu_item {
 p {
   font-family: helvetica, arial, sans-serif;
   color:"red";
+}
+
+#map {
+ width: 100%;
+ height: 400px;
+ background-color: grey;
 }
 
 
